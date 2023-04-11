@@ -1,16 +1,15 @@
 import React from "react";
 import { useState } from "react";
-import CharacterModel from "../../models/Character";
 import { SearchType } from "../../models/Search";
 import styles from "./index.module.css";
 import Button from "../Button";
+import characters from "./characters";
 
 type Props = {
-  characters: CharacterModel[];
   onSearch: (characterId: number, searchType: SearchType) => void;
 };
 
-export default function Search({ characters, onSearch }: Props) {
+export default function Search({ onSearch }: Props) {
   const [selectedCharacter, setSelectedCharacter] = useState(-1);
   const [selectedSearchType, setSelectedSearchType] = useState(SearchType.ALL);
 
