@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+}
+
+.labelContainer {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.labelContainer label {
+  width: 40%;
+  margin-right: 8px;
+}
+
+.labelContainer select {
+  width: 20%;
+}
+
+@media (max-width: 1024px) {
+  .labelContainer label {
+    width: 60%;
+  }
+
+  .labelContainer select {
+    width: 40%;
+  }
+}
