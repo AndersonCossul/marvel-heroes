@@ -10,4 +10,5 @@
 
 .button:disabled {
   cursor: not-allowed;
+  color: #dedede;
 }
