@@ -18,6 +18,15 @@
   width: 20%;
 }
 
+.select {
+  border: none;
+  background: none;
+  background-color: #c3c3c3;
+  border-radius: 16px;
+  padding: 8px 16px;
+  border-right: 16px solid transparent;
+}
+
 @media (max-width: 1024px) {
   .labelContainer label {
     width: 60%;

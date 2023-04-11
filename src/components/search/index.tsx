@@ -21,6 +21,7 @@ export default function Search({ characters, onSearch }: Props) {
           Qual personagem da MARVEL você quer saber sobre a cronologia?
         </label>
         <select
+          className={styles.select}
           value={selectedCharacter}
           onChange={(e: any) => setSelectedCharacter(e.target.value)}
         >
@@ -40,6 +41,7 @@ export default function Search({ characters, onSearch }: Props) {
           Vocês gostaria de saber a ordem cronológica de filmes ou comics?
         </label>
         <select
+          className={styles.select}
           value={selectedSearchType}
           onChange={(e: any) => setSelectedSearchType(e.target.value)}
         >

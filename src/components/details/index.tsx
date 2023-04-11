@@ -52,8 +52,8 @@ export default function Details({ characterId, searchType, onReturn }: Props) {
   }, []);
 
   return (
-    <>
-      <div className={styles.container}>
+    <div className={styles.container}>
+      <div className={styles.containerList}>
         {(searchType == SearchType.ALL || searchType == SearchType.MOVIES) && (
           <div>
             <h2>Filmes</h2>
@@ -80,6 +80,6 @@ export default function Details({ characterId, searchType, onReturn }: Props) {
       </div>
 
       <Button onClick={onReturn}>Voltar</Button>
-    </>
+    </div>
   );
 }

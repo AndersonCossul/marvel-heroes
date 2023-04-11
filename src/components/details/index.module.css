@@ -1,4 +1,17 @@
 .container {
+  text-align: right;
+}
+
+.containerList {
   display: flex;
+  justify-content: center;
   gap: 128px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 500px) {
+  .containerList {
+    gap: 8px;
+  }
 }
