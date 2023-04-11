@@ -25,6 +25,7 @@
   border-radius: 16px;
   padding: 8px 16px;
   border-right: 16px solid transparent;
+  color: black;
 }
 
 @media (max-width: 1024px) {
